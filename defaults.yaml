@@ -1,0 +1,18 @@
+from: markdown+fenced_divs
+
+metadata:
+  theme: "Frankfurt"
+  colortheme: "beaver"
+  fonttheme: "professionalfonts"
+  mainfont: "Hack Nerd Font"
+  fontsize: 11pt
+  urlcolor: red
+  linkstyle: bold
+  aspectratio: 169
+  lang: en-US
+
+template: template.tex
+
+filters:
+  - filters/notes-only-option.lua
+  - filters/latex-color.lua
